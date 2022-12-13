@@ -49,8 +49,53 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-				
-		  
+	
+		
+		
+		
+          <tr onmouseout="lape_stop()" onmouseover="lape_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lape_image'>
+                  <img src='images/lape_after.jpg' width="160"></div>
+                <img src='images/lape_before.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function lape_start() {
+                  document.getElementById('lape_image').style.opacity = "1";
+                }
+
+                function lape_stop() {
+                  document.getElementById('lape_image').style.opacity = "0";
+                }
+                lape_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2212.05262">
+                <papertitle>Position Embedding Needs an Independent Layer Normalization</papertitle>
+              </a>
+              <br>
+	      <a href="">Runyi Yu*</a>,
+	      <a href="">Zhennan Wang*</a>,
+              <strong>Yinhuai Wang*</strong>, 
+              <a href="">Kehan Li</a>, 
+		    <a href="">Yian Zhao</a>, 
+		    <a href="https://jianzhang.tech/">Jian Zhang</a>
+              <a href="">Guoli Song</a>,
+		    <a href="">Jie Chen</a>,
+              
+              <br>
+              <em>arXiv</em>, 2022
+              <br>
+              <a href="https://github.com/Ingrid725/LaPE">code</a> /
+              <a href="https://arxiv.org/abs/2212.05262">arXiv</a>
+              <p></p>
+              <p>
+		We find that simply adding an independent LN to each layer can robustly improve the performance of vision transformers.
+              </p>
+            </td>
+          </tr>		  
           
           
           <tr onmouseout="dreamfusion_stop()" onmouseover="dreamfusion_start()"  bgcolor="#ffffd0">
