@@ -20,10 +20,10 @@
               <p style="text-align:center">
                 <name>Yinhuai Wang</name>
               </p>
-              <p>I am a second year master student at <a href="https://www.ece.pku.edu.cn/en/">Peking University, SECE</a>, advised by <a href="https://villa.jianzhang.tech">Jian Zhang</a>. I study computer vision and deep learning.
+              <p>I am a second year master student at <a href="https://www.ece.pku.edu.cn/en/">Peking University, SECE</a>, advised by <a href="https://villa.jianzhang.tech">Prof. Jian Zhang</a>. I study computer vision and deep learning.
               </p>
               <p>
-                Before entering Peking University, I was a start-up employee for <a href="https://en.dh-robotics.com/">DH-Robotics</a>, where I was in charge of the electronic design and motion control for the robot gripper and arm.
+                Before entering Peking University, I was a start-up employee for <a href="https://en.dh-robotics.com/">DH-Robotics</a>, advised by <a href="https://nms.kcl.ac.uk/jian.dai/">Prof. Jian S. Dai</a>. I was in charge of the electronic design and motion control for the robot gripper and arm.
               </p>
               <p style="text-align:center">
                 <a href="yinhuai@stu.pku.edu.cn">Email</a> &nbsp/&nbsp
@@ -43,7 +43,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                Recently, I focus on distilling knowledge from generative models to various downstream tasks. Typically, Image Restoration and 3D reconstruction. I like philosophy and want to explore the mathematical principles behind human cognition.
+                My recent research interest is in AI Generated Content using diffusion models. My long-term goal is to explore human behavior and cognition and finally build a self-driven robot system in virtual and reality.
               </p>
             </td>
           </tr>
@@ -53,49 +53,7 @@
 		
 		
 		
-          <tr onmouseout="lape_stop()" onmouseover="lape_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='lape_image'>
-                  <img src='images/lape_after.jpg' width="160"></div>
-                <img src='images/lape_before.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function lape_start() {
-                  document.getElementById('lape_image').style.opacity = "1";
-                }
 
-                function lape_stop() {
-                  document.getElementById('lape_image').style.opacity = "0";
-                }
-                lape_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2212.05262">
-                <papertitle>Position Embedding Needs an Independent Layer Normalization</papertitle>
-              </a>
-              <br>
-	      <a href="">Runyi Yu*</a>,
-	      <a href="">Zhennan Wang*</a>,
-              <strong>Yinhuai Wang*</strong>, 
-              <a href="">Kehan Li</a>, 
-		    <a href="">Yian Zhao</a>, 
-		    <a href="https://jianzhang.tech/">Jian Zhang</a>,
-              <a href="">Guoli Song</a>,
-		    <a href="">Jie Chen</a>,
-              
-              <br>
-              <em>arXiv</em>, 2022
-              <br>
-              <a href="https://github.com/Ingrid725/LaPE">code</a> /
-              <a href="https://arxiv.org/abs/2212.05262">arXiv</a>
-              <p></p>
-              <p>
-		We find that simply adding an independent LN to each layer can robustly improve the performance of vision transformers.
-              </p>
-            </td>
-          </tr>		  
           
           
           <tr onmouseout="dreamfusion_stop()" onmouseover="dreamfusion_start()"  bgcolor="#ffffd0">
@@ -177,7 +135,49 @@
               </p>
             </td>
           </tr>		
+		
+	
+		
 
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/panini_after.jpg' width="160"></div>
+                <img src='images/panini_before.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2203.08444">
+                <papertitle>Panini-Net: GAN Prior based Degradation-Aware Feature Interpolation for Face Restoration</papertitle>
+              </a>
+              <br>
+              <strong>Yinhuai Wang</strong>,
+              <a href="">Yujie Hu</a>,
+              <a href="https://jianzhang.tech/">Jian Zhang</a>
+              <br>
+              <em>AAAI</em>, 2022
+              <br>
+              <a href="https://github.com/jianzhangcs/panini">code</a>
+              /
+              <a href="https://arxiv.org/abs/2203.08444">arXiv</a>
+              <p></p>
+              <p>
+              We fuse the generative prior and the image prior dynamically according to the degradation levels.
+              </p>
+            </td>
+          </tr>		
+		
           <tr onmouseout="pnf_stop()" onmouseover="pnf_start()">
           <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
@@ -218,47 +218,53 @@
           </tr> 
 
 
-          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+
+					
+
+          <tr onmouseout="lape_stop()" onmouseover="lape_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='malle_image'>
-                  <img src='images/panini_after.jpg' width="160"></div>
-                <img src='images/panini_before.jpg' width="160">
+                <div class="two" id='lape_image'>
+                  <img src='images/lape_after.jpg' width="160"></div>
+                <img src='images/lape_before.jpg' width="160">
               </div>
               <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
+                function lape_start() {
+                  document.getElementById('lape_image').style.opacity = "1";
                 }
 
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
+                function lape_stop() {
+                  document.getElementById('lape_image').style.opacity = "0";
                 }
-                malle_stop()
+                lape_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2203.08444">
-                <papertitle>Panini-Net: GAN Prior based Degradation-Aware Feature Interpolation for Face Restoration</papertitle>
+              <a href="https://arxiv.org/abs/2212.05262">
+                <papertitle>Position Embedding Needs an Independent Layer Normalization</papertitle>
               </a>
               <br>
-              <strong>Yinhuai Wang</strong>,
-              <a href="">Yujie Hu</a>,
-              <a href="https://jianzhang.tech/">Jian Zhang</a>
+	      <a href="">Runyi Yu*</a>,
+	      <a href="">Zhennan Wang*</a>,
+              <strong>Yinhuai Wang*</strong>, 
+              <a href="">Kehan Li</a>, 
+		    <a href="">Yian Zhao</a>, 
+		    <a href="https://jianzhang.tech/">Jian Zhang</a>,
+              <a href="">Guoli Song</a>,
+		    <a href="">Jie Chen</a>,
+              
               <br>
-              <em>AAAI</em>, 2022
+              <em>arXiv</em>, 2022
               <br>
-              <a href="https://github.com/jianzhangcs/panini">code</a>
-              /
-              <a href="https://arxiv.org/abs/2203.08444">arXiv</a>
+              <a href="https://github.com/Ingrid725/LaPE">code</a> /
+              <a href="https://arxiv.org/abs/2212.05262">arXiv</a>
               <p></p>
               <p>
-              We fuse the generative prior and the image prior dynamically according to the degradation levels.
+		We find that simply adding an independent LN to each layer can robustly improve the performance of vision transformers.
               </p>
             </td>
-          </tr>
-					
-
-          
+          </tr>		  
+		
 
         </tbody></table>
 
