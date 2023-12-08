@@ -54,8 +54,55 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 	
 		
-		
-		
+
+          <tr onmouseout="dreamfusion_stop()" onmouseover="dreamfusion_start()"  bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+	        <div class="one">
+	          <div class="two" id='recon_image'><video  width=100% height=100% muted autoplay loop>
+	          <source src="images/physpoi2.mp4" type="video/mp4">
+	          Your browser does not support the video tag.
+	          </video></div>
+	          <video  width=100% height=100% muted autoplay loop>
+	          <source src="images/physpoi1.mp4" type="video/mp4">
+	          Your browser does not support the video tag.
+	          </video>
+	        </div>
+	        <script type="text/javascript">
+	          function recon_start() {
+	            document.getElementById('recon_image').style.opacity = "1";
+	          }
+	
+	          function recon_stop() {
+	            document.getElementById('recon_image').style.opacity = "0";
+	          }
+	          recon_stop()
+	        </script>
+	    </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://wyhuai.github.io/ddnm.io/">
+                <papertitle>PhysHOI: Physics-Based Imitation of Dynamic Human-Object Interaction</papertitle>
+              </a>
+              <br>
+              <strong>Yinhuai Wang</strong>,
+              <a href="https://jinglin7.github.io/">Jing Lin</a>,
+							<a href="https://ailingzeng.site/">Ailing Zeng</a>
+		    <a href="https://zhengyiluo.github.io/">Zhengyi Luo</a>
+		    <a href="https://jianzhang.tech/">Jian Zhang</a>
+		    <a href="https://www.leizhang.org/">Lei Zhang</a>
+              <br>
+              <em>arXiv</em>, 2023
+              <br>
+              <a href="https://wyhuai.github.io/physhoi-page/">project page</a>
+              /
+              <a href="https://arxiv.org/abs/2312.04393">arXiv</a>
+              /
+              <a href="https://github.com/wyhuai/PhysHOI">code</a>
+              <p></p>
+              <p>
+              We enable physically simulated humanoids to learn interaction skills from video demonstrations, without the need of designing task-specific rewards.
+              </p>
+            </td>
+          </tr>
 
           
           
