@@ -20,10 +20,10 @@
               <p style="text-align:center">
                 <name>Yinhuai Wang</name>
               </p>
-              <p>I am a third year master student at <a href="https://www.ece.pku.edu.cn/en/">Peking University, SECE</a>, advised by <a href="https://villa.jianzhang.tech">Jian Zhang</a>. Currently, I am interning at <a href="https://www.idea.edu.cn/research/cvr.html">IDEA Research</a>, where my research focuses on physics-based human motion generation, working closely with <a href="https://ailingzeng.site/">Ailing Zeng</a> and <a https://www.leizhang.org/">Lei Zhang</a>.
+              <p>Hi! I am a first-year Ph.D student at <a href="https://hkust.edu.hk/">HKUST</a>, advised by <a href="https://ece.hkust.edu.hk/pingtan">Ping Tan</a>. I earned my Master's degree from <a href="https://www.ece.pku.edu.cn/en/">Peking University and Bachelor's degree from Xidian University. I interned at <a href="https://www.idea.edu.cn/research/cvr.html">IDEA Research</a> and <a href="https://www.unitree.com/">Unitree Robotics</a>.
               </p>
               <p>
-                Before entering Peking University, I was a start-up employee for <a href="https://en.dh-robotics.com/">DH-Robotics</a>, responsible for the electronic design and motion control of the robot gripper and arm, working with <a href="https://scholar.google.com/citations?user=PXpHh2UAAAAJ">Jian S Dai</a>.
+                Before my postgraduate studies, I was a start-up employee for <a href="https://en.dh-robotics.com/">DH-Robotics</a>, responsible for the electronic design and motion control of the robot gripper and arm.
               </p>
               <p style="text-align:center">
                 <a href="yinhuai@stu.pku.edu.cn">Email</a> &nbsp/&nbsp
@@ -43,14 +43,58 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I'm interested in <strong>Computer Vision, Machine Learning, Robotics, and their intersections</strong>. My long-term goal is to enable robots to master all human skills and eventually build autonomous robotic systems in physical simulations and reality.
+                My research interest lies in the intersection of Computer Vision, Machine Learning, and Robotics. My long-term goal is to <strong>enable robots to master all human skills<strong> and deeply integrate into our world.
               </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-	
-		
+
+
+          <tr onmouseout="recon_stop()" onmouseover="recon_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='recon_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/skillmimic_manual.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <video  width=100% height=100% muted autoplay loop>
+                  <source src="images/skillmimic_auto.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+              </div>
+              <script type="text/javascript">
+                function recon_start() {
+                  document.getElementById('recon_image').style.opacity = "1";
+                }
+      
+                function recon_stop() {
+                  document.getElementById('recon_image').style.opacity = "0";
+                }
+                recon_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ingrid789.github.io/SkillMimic/">
+                <papertitle>SkillMimic: Learning Reusable Basketball Skills from Demonstrations</papertitle>
+              </a>
+              <br>
+              <strong>Yinhuai Wang*</strong>,
+              Qihan Zhao*, Runyi Yu*, Ailing Zeng, Jing Lin, Zhengyi Luo, Hok Wai Tsui, Jiwen Yu, Xiu Li, Qifeng Chen, Jian Zhang, Lei Zhang, Ping Tan
+              <br>
+              <em>arXiv</em>, 2024
+              <br>
+              <a href="https://ingrid789.github.io/SkillMimic/">project page</a>
+              /
+              <a href="https://arxiv.org/abs/2408.15270">arXiv</a>
+              /
+              <a href="https://github.com/wyhuai/SkillMimic">code</a>
+              <p></p>
+              <p>
+              We enable simulated humanoids to learn reusable basketball skills purely from demonstrations and reuse these skills for complex high-level tasks.
+              </p>
+            </td>
+          </tr>
 
           <tr onmouseout="recon_stop()" onmouseover="recon_start()" >
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -96,7 +140,7 @@
               <a href="https://github.com/wyhuai/PhysHOI">code</a>
               <p></p>
               <p>
-              We enable physically simulated humanoids to learn interaction skills from video demonstrations, without the need of designing task-specific rewards.
+              We enable physically simulated humanoids to learn interactions from video demonstrations, without designing task-specific rewards.
               </p>
             </td>
           </tr>
