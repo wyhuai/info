@@ -134,7 +134,7 @@ strong {
 
 em {
   color: var(--accent-strong);
-  font-style: normal;
+  font-style: italic;
   font-weight: 700;
 }
 
