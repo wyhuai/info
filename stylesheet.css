@@ -371,6 +371,7 @@ body > table > tbody > tr > td > table:nth-of-type(3) > tbody > tr > td:last-chi
 
 body > table > tbody > tr > td > table:nth-of-type(3) > tbody > tr > td:last-child > a:not(:first-child) {
   color: #4d8790;
+  font-weight: 400;
 }
 
 body > table > tbody > tr > td > table:nth-of-type(3) > tbody > tr > td:last-child > a:not(:first-child):hover {
